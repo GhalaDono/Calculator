@@ -1,10 +1,10 @@
-<script>
+<script lang="ts">
     import S from "$lib/icons/S.svelte";
     import A from "$lib/icons/A.svelte";
-    import D from "$lib/icons/A.svelte";
-    import E from "$lib/icons/A.svelte";
-    import M from "$lib/icons/A.svelte";
-    import Mult from "$lib/icons/A.svelte";
+    import D from "$lib/icons/D.svelte";
+    import E from "$lib/icons/E.svelte";
+    import M from "$lib/icons/M.svelte";
+    import Mult from "$lib/icons/Mult.svelte";
     
 
 </script>
@@ -30,20 +30,20 @@
         <button >7</button>
         <button >8</button>
         <button >9</button>
-        <button class="bg-[#fb4557] text-white shadow-[0_35px_60px_-15px_#fb4557]"> 
+        <button class="bg-[#fb4557] text-white shadow-[0px_01px_6px_0px_#f97d8a]"> 
             <M/>
             
         </button>
         <button >4</button>
         <button >5</button>
         <button >6</button>
-        <button class="bg-[#2386fe] text-white shadow-[#2386fe]">
+        <button class="bg-[#2386fe] text-white shadow-[0_1px_6px_0_#a5cbf9]">
             <D/>
                     </button>
         <button >1</button>
         <button >2</button>
         <button >3</button>
-        <button class="bg-[#fac901]  text-white shadow-[#fac901]">
+        <button class="bg-[#fac901]  text-white shadow-[0_2px_6px_0px_#f6df85]">
             <Mult/>
             
         </button>
@@ -53,7 +53,7 @@
             <E/>
             
         </button>
-        <button class="bg-[#5de16f] text-white shadow-[#5de16f]">
+        <button class="bg-[#5de16f] text-white shadow-[0_1px_6px_0_#b4fbbe]">
         <A/>
             
         </button>
