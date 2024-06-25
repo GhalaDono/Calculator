@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 button {
-    @apply bg-[#d6dcef] rounded-full h-[2.5rem] w-[2.5rem] shadow-md ;
+    @apply bg-[#d6dcef] text-[#6f7585] hover:scale-90 transition-all rounded-full h-[2.5rem] w-[2.5rem] shadow-md flex justify-center items-center ;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
