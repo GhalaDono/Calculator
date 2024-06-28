@@ -13,7 +13,18 @@
     }
 
     function BackSpace(){
-        equation=equation.substring(0,equation.length-1)
+        switch(equation.substring(equation.length-3,equation.length)) {
+        case " * ":
+        case " + ":
+        case " - ":
+        case " / ":
+            equation=equation.substring(0,equation.length-3)
+            break;
+
+         default :
+                equation=equation.substring(0,equation.length-1)
+        }
+        
     }
 
     function clear(){
@@ -31,11 +42,11 @@
 
  </svelte:head> 
 
-    <div class="bg-[#fdfefe] rounded-3xl 
-     grid grid-cols-4 gap-1 p-5 font-extrabold shadow-xl">
+    <div class="bg-[#fdfefe] rounded-3xl max-w-[16rem]
+     grid grid-cols-4 gap-2 p-6 font-extrabold shadow-xl ">
 
-    <div class="bg-[#2386fe] rounded-full col-span-4 h-11
-     flex items-center px-2 mb-2 text-white justify-end text-right ">
+    <div class="bg-[#2386fe] rounded-xl col-span-4 min-h-11
+     flex items-center px-2 mb-2 text-white justify-end text-right break-all ">
       {equation}
 
     </div>
