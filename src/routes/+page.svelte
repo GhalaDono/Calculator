@@ -63,7 +63,7 @@
     for(let i=0; i<allButtons.length;i++){
         allButtons[i].addEventListener('click',()=>{
 
-            new Audio('/click1.wav').play();
+            new Audio('./click1.wav').play();
         });
     }
    }
@@ -90,7 +90,7 @@
 
     <button id="Delete" on:click={clear} class="bg-[#f3f6fd]">AC</button>
 
-    <button id="B2=3=ackspace" on:click={BackSpace} class="bg-[#f3f6fd]">
+    <button id="Backspace" on:click={BackSpace} class="bg-[#f3f6fd]">
         <Backsp />
     </button>
 

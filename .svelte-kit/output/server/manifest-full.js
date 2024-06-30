@@ -10,7 +10,7 @@ return {
 	assets: new Set([".nojekyll","calculator.png","click.mp3","click1.wav"]),
 	mimeTypes: {".png":"image/png",".mp3":"audio/mpeg",".wav":"audio/wav"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.DeJhxIKy.js","app":"_app/immutable/entry/app.B72QaV_R.js","imports":["_app/immutable/entry/start.DeJhxIKy.js","_app/immutable/chunks/entry.JnMV0Ewy.js","_app/immutable/chunks/scheduler.CtbWrGNo.js","_app/immutable/entry/app.B72QaV_R.js","_app/immutable/chunks/scheduler.CtbWrGNo.js","_app/immutable/chunks/index.DlXuueEN.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
+		client: {"start":"_app/immutable/entry/start.BLlFMGiW.js","app":"_app/immutable/entry/app.D4KzB6ne.js","imports":["_app/immutable/entry/start.BLlFMGiW.js","_app/immutable/chunks/entry.BiyDPLWK.js","_app/immutable/chunks/scheduler.CtbWrGNo.js","_app/immutable/entry/app.D4KzB6ne.js","_app/immutable/chunks/scheduler.CtbWrGNo.js","_app/immutable/chunks/index.DlXuueEN.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
